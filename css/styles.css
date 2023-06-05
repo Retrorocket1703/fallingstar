@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+#header-box img {
+  object-fit: cover;
+  display: flex;
+  width: 97vw;
+  height: 20rem;
+}
+#header-box h1 {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+#header-box #logo {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 5rem;
+  width: 5rem;
+  border: solid white;
+  border-radius: 12px;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: #353b48;
+}
+
+.box {
+  height: 8rem;
+  border: 5px solid white;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  transform-origin: top;
+}
+
+.box img:hover {
+  transform: scale(1.5);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.control {
+  max-width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group input {
+  width: 15vw;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-subgroup p {
+  color: white;
+  position: relative;
+  top: -40%;
+  right: 0%;
+  text-align: center;
+  pointer-events: none;
+}
+
+.btn-group .btn:hover,
+.btn-group .btn-clicked .btn {
+  opacity: 0.75;
+}
+
+#search {
+  width: 500px;
+  height: 30px;
+  outline: none;
+  padding: 0 10px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 0.6rem;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=styles.css.map */
