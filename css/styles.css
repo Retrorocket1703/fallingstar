@@ -37,12 +37,8 @@ html {
   font-size: 22px;
 }
 
-body {
-  background-color: #353b48;
-}
-
 .box {
-  height: 8rem;
+  height: 11rem;
   border: 5px solid white;
   border-radius: 3px;
   overflow: hidden;
@@ -57,7 +53,7 @@ body {
 }
 
 .box img:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .container {

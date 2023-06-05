@@ -32,8 +32,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
 * {
-  // margin: 0;
-  // padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
@@ -42,13 +40,8 @@ html {
   font-size: 22px;
 }
 
-body {
-  background-color: #353b48;
-  // padding: 1rem;
-}
-
 .box {
-  height: 8rem;
+  height: 11rem;
   border: 5px solid white;
   border-radius: 3px;
   overflow: hidden;
@@ -62,7 +55,7 @@ body {
   transform-origin: top;
 }
 .box img:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 .container {
   max-width: 1200px;
