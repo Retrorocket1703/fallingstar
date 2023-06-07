@@ -1,32 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Fallingstar Studios Wholesale</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-</html>
-<body>
+
   <div id="header-box" class="m-2">
     <h1>The Forge for Your Creativity</h1>
-    <!-- <div id="search-bar"><p>Search Bar Template</p></div> -->
     <input type="text" placeholder="Search" id="search" />
     <div id="logo"><p>logo</p></div>
-    <img class="rounded" src="images/header.jpg" />
+    <img class="rounded" src="images/header.jpg" alt="none"/>
+    
   </div>
 
   <h2 class="m-2">Filter</h2>
+
+  
+<Popover arrowColor="#fff">
+  <button slot="target">Target</button>
+  <div slot="content" class="content">Content</div>
+</Popover>
 
   <div class="control">
     <div class="btn-group">
@@ -35,7 +22,7 @@
           type="image"
           class="btn btn-clicked"
           data-filter="featured"
-          src="images/product-images/amazonidlebow.jpg"
+          src="" alt="none"
         />
         <p>Featured</p>
       </div>
@@ -44,7 +31,7 @@
           type="image"
           class="btn"
           data-filter="all"
-          src="images/product-images/amazonidlebow.jpg"
+          src="" alt="none"
         />
         <p>All</p>
       </div>
@@ -53,8 +40,8 @@
           type="image"
           class="btn"
           data-filter="miniatures"
-          src="images/product-images/amazonidlebow.jpg"
-        />
+          src="" alt="none"
+        /> 
         <p>Miniatures</p>
       </div>
       <div class="btn-subgroup">
@@ -62,7 +49,7 @@
           type="image"
           class="btn"
           data-filter="terrain"
-          src="images/product-images/amazonidlebow.jpg"
+          src="" alt="none"
         />
         <p>Terrain</p>
       </div>
@@ -71,7 +58,7 @@
           type="image"
           class="btn"
           data-filter="vehicles"
-          src="images/product-images/amazonidlebow.jpg"
+          src="" alt="none"
         />
         <p>Vehicles</p>
       </div>
@@ -80,64 +67,64 @@
           type="image"
           class="btn"
           data-filter="other"
-          src="images/product-images/amazonidlebow.jpg"
+          src="" alt="none"
         />
         <p>Other</p>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="#container">
     <div class="box" data-item="miniatures">
-      <img src="images/product-images/amazons/resize-amazonaim.jpg" />
+     <img src="images/product-images/amazons/resize-amazonaim.jpg" alt="none"/>
+      
     </div>
     <div class="box" data-item="cake">
-      <img src="images/61.jpg" />
+      <img src="images/61.jpg" alt="none" />
     </div>
     <div class="box" data-item="pizza">
-      <img src="images/81.jpg" />
+      <img src="images/81.jpg" alt="none"/>
     </div>
 
     <div class="box" data-item="miniatures">
-      <img src="images/product-images/amazons/resize-amazonbird.jpg" />
+      <img src="images/product-images/amazons/resize-amazonbird.jpg" alt="none"/>
     </div>
     <div class="box" data-item="cake">
-      <img src="images/62.jpg" />
+      <img src="images/62.jpg" alt="none"/>
     </div>
     <div class="box" data-item="pizza">
-      <img src="images/82.jpg" />
+      <img src="images/82.jpg" alt="none"/>
     </div>
 
     <div class="box" data-item="miniatures">
-      <img src="images/product-images/amazons/resize-nagaamazonshaman.jpg" />
+      <img src="images/product-images/amazons/resize-nagaamazonshaman.jpg" alt="none"/>
     </div>
     <div class="box" data-item="cake">
-      <img src="images/63.jpg" />
+      <img src="images/63.jpg" alt="none"/>
     </div>
     <div class="box" data-item="pizza">
-      <img src="images/83.jpg" />
+      <img src="images/83.jpg" alt="none"/>
     </div>
 
     <div class="box" data-item="miniatures">
-      <img src="images/44.jpg" />
+      <img src="images/44.jpg" alt="none"/>
     </div>
     <div class="box" data-item="cake">
-      <img src="images/64.jpg" />
+      <img src="images/64.jpg" alt="none"/>
     </div>
     <div class="box" data-item="pizza">
-      <img src="images/84.jpg" />
+      <img src="images/84.jpg" alt="none"/>
     </div>
 
     <div class="box" data-item="miniatures">
-      <img src="images/45.jpg" />
+      <img src="images/45.jpg" alt="none"/>
     </div>
     <div class="box" data-item="cake">
-      <img src="images/65.jpg" />
+      <img src="images/65.jpg" alt="none"/>
     </div>
     <div class="box" data-item="pizza">
-      <img src="images/85.jpg" />
+      <img src="images/85.jpg" alt="none"/>
     </div>
   </div>
 
-  <script src="js/script.js"></script>
-</body>
+
