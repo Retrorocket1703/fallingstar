@@ -1,3 +1,6 @@
+<script>
+  import { Popover, Button } from 'flowbite-svelte'
+</script>
 
   <div id="header-box" class="m-2">
     <h1>The Forge for Your Creativity</h1>
@@ -8,12 +11,10 @@
   </div>
 
   <h2 class="m-2">Filter</h2>
-
-  
-<Popover arrowColor="#fff">
-  <button slot="target">Target</button>
-  <div slot="content" class="content">Content</div>
-</Popover>
+  <Button  id="b1">Default popover</Button>
+  <Popover class="w-64 text-sm font-light " title="Popover title" triggeredBy="#b1" trigger="click">
+      And here's some amazing content. It's very engaging. Right?
+  </Popover>
 
   <div class="control">
     <div class="btn-group">
