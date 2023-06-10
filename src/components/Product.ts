@@ -1,4 +1,4 @@
-import { Carousel, CarouselTransition } from "flowbite-svelte";
+// import { Carousel, CarouselTransition } from "flowbite-svelte";
 
 export interface Product {
   trigger: string;
@@ -11,6 +11,30 @@ export interface Product {
   popOverImgSrc2: string;
   summary: string;
 }
+// export interface productImgSrcSet {
+//   src: {
+//     id: number;
+//     imgurl: string;
+//   };
+// }
+
+// export const images = [
+//   {
+//     id: 0,
+//     imgurl: "images/header-2.jpg",
+//   },
+//   {
+//     id: 1,
+//     imgurl: "/images/header.jpg",
+//   },
+// ];
+
+// export let productSrcSet: productImgSrcSet[]={
+//   src: {
+//     id:0,
+//     imgurl:"blank",
+//   }
+// }
 
 export let products: Product[] = [
   {
@@ -20,8 +44,8 @@ export let products: Product[] = [
     price: 5.99,
     size: "x by x by x",
     boxImgSrc: "images/product-images/amazons/resize-amazonaim.jpg",
-    popOverImgSrc1: "images/product-images/amazons/resize-amazonaim.jpg",
-    popOverImgSrc2: "blank",
+    popOverImgSrc1: "images/product-images/amazons/resize-amazonbird.jpg",
+    popOverImgSrc2: "images/product-images/amazons/resize-amazonaim.jpg",
     summary: "blank",
   },
   {
@@ -78,16 +102,5 @@ export let products: Product[] = [
     popOverImgSrc1: "blank",
     popOverImgSrc2: "blank",
     summary: "blank",
-  },
-];
-
-export const images = [
-  {
-    id: 0,
-    imgurl: "images/header-2.jpg",
-  },
-  {
-    id: 1,
-    imgurl: "/images/header.jpg",
   },
 ];

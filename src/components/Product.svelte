@@ -2,11 +2,6 @@
   import type { Product } from "./Product";
   import { Popover } from "flowbite-svelte";
 
-  import { Carousel } from "flowbite-svelte";
-  import { images } from "./Product";
-  let showThumbs = false;
-  let showCaptions = false;
-
   export let product: Product;
 </script>
 
@@ -26,22 +21,20 @@
   trigger="click"
   title={product.title}
 >
-  <div class="grid grid-cols-4">
-    <div class="col-span-3 p-3">
-      <div class="space-y-2">
+  <div class="grid grid-cols-6">
+    <div class="col-span-3 p-1">
+      <div class="space-y-3">
         <pre style="font-size: small;">
-          Wholesale : {product.price}
+          Wholesale : ${product.price}
           Size : {product.size}
+          Category : {product.data}
+          Summary : {product.summary}
         </pre>
       </div>
     </div>
-    <!-- <img
-      class="col-span-2 h-full rounded-r-lg"
-      src={product.popOverImgSrc1}
-      alt="null"
-    /> -->
-    <div class="max-w-4xl">
-      <Carousel {images} {showThumbs} {showCaptions} />
+    <div class="card w-40">
+      <img src={product.popOverImgSrc1} alt="Card Back" />
+      <img src={product.popOverImgSrc2} class="img-top" alt="Card Front" />
     </div>
-  </div>
-</Popover>
+  </div></Popover
+>

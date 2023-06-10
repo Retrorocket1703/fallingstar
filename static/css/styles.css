@@ -13,6 +13,7 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  font-size: 40pt;
 }
 #header-box #logo {
   margin: 0;
@@ -161,6 +162,24 @@ html {
 #main {
   transition: margin-left 0.5s;
   padding: 20px;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  padding: 0%;
+}
+
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  z-index: 99;
+}
+
+.card:hover .img-top {
+  display: inline;
 }
 
 /*# sourceMappingURL=styles.css.map */

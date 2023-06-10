@@ -4,8 +4,9 @@
 </script>
 
 <svelte:head>
-  <script src="js/nav-bar.js"></script>
+  <!-- <script src="js/nav-bar.js"></script> -->
 </svelte:head>
+
 <!-- <div id="nav">
   <div id="open-sidebar">
     <button class="openbtn" onclick="openNav()"
@@ -39,31 +40,37 @@
 <div class="control">
   <div class="btn-group">
     <div class="btn-subgroup">
-      <input
-        type="image"
-        class="btn btn-clicked"
-        data-filter="featured"
-        src=""
-        alt="none"
-      />
-      <p>Featured</p>
-    </div>
-    <div class="btn-subgroup">
       <input type="image" class="btn" data-filter="all" src="" alt="none" />
       <p>All</p>
     </div>
     <div class="btn-subgroup">
       <input
         type="image"
-        class="btn"
+        class="btn btn-clicked"
         data-filter="miniatures"
-        src=""
+        src="images/product-images/amazonidlebow.jpg"
         alt="none"
       />
       <p>Miniatures</p>
     </div>
     <div class="btn-subgroup">
-      <input type="image" class="btn" data-filter="terrain" src="" alt="none" />
+      <input
+        type="image"
+        class="btn"
+        data-filter="monsters"
+        src="images\product-images\resize-heavenly-ophidian-2.jpg"
+        alt="none"
+      />
+      <p>Monsters</p>
+    </div>
+    <div class="btn-subgroup">
+      <input
+        type="image"
+        class="btn"
+        data-filter="terrain"
+        src="images\product-images\720X720-dragon-gates-square.jpg"
+        alt="none"
+      />
       <p>Terrain</p>
     </div>
     <div class="btn-subgroup">
@@ -71,13 +78,19 @@
         type="image"
         class="btn"
         data-filter="vehicles"
-        src=""
+        src="images\product-images\720X720-1138-balloon-air-ship-1.jpg"
         alt="none"
       />
       <p>Vehicles</p>
     </div>
     <div class="btn-subgroup">
-      <input type="image" class="btn" data-filter="other" src="" alt="none" />
+      <input
+        type="image"
+        class="btn"
+        data-filter="other"
+        src="images\product-images\720X720-witchbust-gift.jpg"
+        alt="none"
+      />
       <p>Other</p>
     </div>
   </div>

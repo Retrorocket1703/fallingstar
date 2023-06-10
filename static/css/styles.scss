@@ -1,3 +1,5 @@
+//Header Styling
+
 #header-box {
   img {
     object-fit: cover;
@@ -13,6 +15,7 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    font-size: 40pt;
   }
   #logo {
     margin: 0;
@@ -28,6 +31,8 @@
     background-color: white;
   }
 }
+
+//Filter Controls Styling
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
@@ -164,4 +169,21 @@ html {
 #main {
   transition: margin-left 0.5s;
   padding: 20px;
+}
+
+//Popover
+.card {
+  position: relative;
+  display: inline-block;
+  padding: 0%;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
 }
