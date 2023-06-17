@@ -17,7 +17,7 @@
 
 <Popover
   triggeredBy={product.trigger}
-  class="w-96 text-sm font-light"
+  class="w-96 text-sm font-light color-black"
   trigger="click"
   title={product.title}
 >
