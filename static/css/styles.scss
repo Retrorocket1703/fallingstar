@@ -45,23 +45,49 @@ html {
   font-size: 22px;
 }
 
-.box {
-  height: 11rem;
-  border: 5px solid white;
-  border-radius: 3px;
-  overflow: hidden;
-  input {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.5s;
-    transform-origin: top;
+//Individual products
+.box-master {
+  white-space: nowrap;
+  // border: 2px solid lightgray;
+  // background: lightgray;
+  // border-radius: 3px;
+  .box {
+    height: 11rem;
+
+    overflow: hidden;
+    input {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+      transform-origin: top;
+    }
+    input:hover {
+      transform: scale(1.1);
+    }
   }
-  input:hover {
-    transform: scale(1.1);
+  #title-tag {
+    display: inline-block;
+    position: relative;
+    left: 2%;
+    font-size: 15px;
+    width: 68%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #price-tag {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    right: -5%;
+    font-size: 15px;
+    font-weight: 500;
+    width: 20%;
+    color: red;
   }
 }
 
+//All products
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -70,6 +96,7 @@ html {
   gap: 1rem;
 }
 
+//Filter and search
 .control {
   max-width: 1200px;
   height: 250px;

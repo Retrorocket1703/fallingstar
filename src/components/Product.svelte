@@ -5,15 +5,19 @@
   export let product: Product;
 </script>
 
-<div class="box" data-item={product.data}>
-  <input
-    type="image"
-    class="popover-btn"
-    id={product.trigger}
-    src={product.boxImgSrc}
-    alt="none"
-  />
-  <p>Blank</p>
+<div class="box-master">
+  <div class="box" data-item={product.data}>
+    <input
+      type="image"
+      class="popover-btn"
+      id={product.trigger}
+      src={product.boxImgSrc}
+      alt="none"
+    />
+    <pre>Blank</pre>
+  </div>
+  <p id="title-tag">{product.title}</p>
+  <p id="price-tag">${product.price}</p>
 </div>
 
 <Popover

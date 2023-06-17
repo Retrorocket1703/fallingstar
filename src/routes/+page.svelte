@@ -96,6 +96,8 @@
   </div>
 </div>
 
+<br />
+
 <div class="container" id="#container">
   {#each products as product}
     <Product {product} />
