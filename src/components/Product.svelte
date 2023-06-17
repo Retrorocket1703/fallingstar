@@ -13,6 +13,7 @@
     src={product.boxImgSrc}
     alt="none"
   />
+  <p>Blank</p>
 </div>
 
 <Popover
