@@ -29,11 +29,6 @@
   background-color: white;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
-
 html {
   font-size: 22px;
 }
@@ -112,51 +107,6 @@ html {
 .btn-group .btn:hover,
 .btn-group .btn-clicked .btn {
   opacity: 0.75;
-}
-
-#search {
-  width: 500px;
-  height: 30px;
-  outline: none;
-  padding: 0 10px;
-  border: 2px solid white;
-  border-radius: 8px;
-  font-size: 0.6rem;
-  margin: 0;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.sidebar {
-  position: fixed;
-  z-index: 1;
-  background-color: #444;
-  height: 100%;
-  width: 0;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  display: block;
-  transition: 0.3s;
-  color: black;
-}
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
 }
 
 .openbtn {
